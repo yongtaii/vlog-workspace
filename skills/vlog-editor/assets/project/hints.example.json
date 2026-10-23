@@ -1,0 +1,7 @@
+{
+  "@title": {"title": "10월의 어느 날", "subtitle": "2026.10.23", "seconds": 3.5},
+  "@ending": {"title": "오늘도 고마웠어", "subtitle": "2026.10.23", "seconds": 3},
+  "videos/arrival.mp4": {"phase": "opening", "location": "숙소", "event": "arrival", "capture_time": "2026-10-23T09:00:00+09:00"},
+  "photos/memory.jpg": {"use": true, "reason": "동영상으로 남기지 못한 가족 기념사진", "phase": "explore", "capture_time": "2026-10-23T09:30:00+09:00", "location": "숙소", "event": "family-group", "display_seconds": 3, "motion": "none", "background": "blur"},
+  "videos/walk.mp4": {"phase": "explore", "location": "거리", "exclude_ranges": [[0, 2.5]]}
+}

@@ -1,0 +1,31 @@
+{
+  "sample_interval": 2,
+  "clip_seconds": 7,
+  "target_seconds": null,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "crf": 18,
+  "preset": "medium",
+  "min_sharpness": 35.0,
+  "max_shake": 0.035,
+  "scene_threshold": 0.5,
+  "duplicate_distance": 6,
+  "transition": "cut",
+  "transition_seconds": 0.2,
+  "color": {
+    "enabled": false,
+    "contrast": 1.03,
+    "brightness": 0.0,
+    "saturation": 1.06
+  },
+  "music": null,
+  "music_volume": 0.16,
+  "source_volume": 0.85,
+  "font": null,
+  "subtitle_size": 42,
+  "photo_seconds": 3.0,
+  "capture_timezone": "+09:00",
+  "title_font": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+  "title_font_index": 6
+}

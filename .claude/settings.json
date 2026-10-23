@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(scripts/vlog-claude.sh:*)",
+      "Bash(./scripts/vlog-claude.sh:*)",
+      "Bash(.venv/bin/python -m pytest:*)",
+      "Bash(.venv/bin/python scripts/smoke_test.py:*)",
+      "Bash(.venv/bin/python scripts/test_incremental.py:*)",
+      "Bash(.venv/bin/python scripts/test_photos.py:*)",
+      "Bash(ffprobe:*)"
+    ],
+    "deny": [
+      "Edit(input/**)",
+      "Write(input/**)",
+      "Edit(music/**)",
+      "Write(music/**)",
+      "Bash(rm -rf input:*)",
+      "Bash(rm -rf music:*)",
+      "Edit(analysis/timeline.json)",
+      "Write(analysis/timeline.json)",
+      "Edit(analysis/revisions/**)",
+      "Write(analysis/revisions/**)",
+      "Write(output/vlog.mp4)",
+      "Write(preview/preview.mp4)"
+    ]
+  }
+}
